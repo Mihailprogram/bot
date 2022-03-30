@@ -6,7 +6,7 @@ from telebot import types
 
 bot=telebot.TeleBot('2047998633:AAHzCvalrxEeHJtHK8DCtoufFS_U4dIysx0')
 
-
+print('Hello')
 key1=telebot.types.ReplyKeyboardMarkup(True,True)
 key1.add('Пока','Я тебя люблю','поиск','Анекдоты',"/geophone",'Меню')
 
